@@ -75,8 +75,10 @@ export function Hero() {
               <Grid className="w-5 h-5" /> View Projects
             </a>
             <a
-              href="/resume.pdf"
-              download
+              href={resumeData.resumeUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              download="Kaviya_Arivarasan_Resume.pdf"
               className="px-6 py-3 border border-border text-foreground rounded-full font-medium hover:bg-muted transition-all flex items-center gap-2"
             >
               <Download className="w-5 h-5" /> Download Resume

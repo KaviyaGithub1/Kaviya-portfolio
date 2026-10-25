@@ -1,6 +1,7 @@
 export const resumeData = {
   name: "Kaviya Arivarasan",
   tagline: "Certified Full Stack Developer",
+  resumeUrl: "/resume.pdf",
   contact: {
     email: "arivarasankaviya@gmail.com",
     phone: "+91 9345708986",
